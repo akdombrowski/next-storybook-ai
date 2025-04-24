@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/yarn,react,node,nextjs,macos,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,react,node,nextjs,macos,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/yarn,visualstudiocode,react,node,nextjs,macos,storybookjs,web
+# Edit at https://www.toptal.com/developers/gitignore?templates=yarn,visualstudiocode,react,node,nextjs,macos,storybookjs,web
 
 ### macOS ###
 # General
@@ -218,6 +218,12 @@ psd
 thumb
 sketch
 
+### StorybookJs ###
+# gitignore template for the Storybook, UI guide for front apps
+# website: https://storybook.js.org/
+
+storybook-static/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -237,6 +243,21 @@ sketch
 .history
 .ionide
 
+### Web ###
+*.asp
+*.cer
+*.csr
+*.css
+*.htm
+*.html
+*.js
+*.jsp
+*.php
+*.rss
+*.wasm
+*.wat
+*.xhtml
+
 ### yarn ###
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 
@@ -254,6 +275,6 @@ sketch
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/yarn,react,node,nextjs,macos,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/yarn,visualstudiocode,react,node,nextjs,macos,storybookjs,web
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
