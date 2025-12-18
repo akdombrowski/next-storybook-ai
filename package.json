@@ -38,7 +38,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "prettier": "^3.5.3",
-    "storybook": "^8.6.12",
+    "storybook": "^8.6.15",
     "typescript": "^5",
     "webpack": "^5.99.6"
   },
